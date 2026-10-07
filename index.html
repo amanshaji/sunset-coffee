@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunset Coffee</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- font awesome-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <a class="brand" href="#home">Sunset Coffee</a>
+
+        <!-- checkbox -->
+        <input type="checkbox" id="check">
+        <!--2 icons -->
+        <label for="check" class="icons">
+            <i id="menuicon" class="fa-solid fa-bars"></i>
+            <i id="cancelicon" class="fa-regular fa-circle-xmark"></i>
+        </label>
+        <!-- links -->
+        <ul class="navlinks">
+            <li class="links">
+                <a href="#home" class="link cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span>$0.00</span>
+                </a>
+            </li>
+            <li class="links"><a href="#home" class="link">Home</a></li>
+            <li class="links"><a href="#brew" class="link">Brew</a></li>
+            <li class="links"><a href="#shop" class="link">Shop</a></li>
+            <li class="links"><a href="#visit" class="link">Visit</a></li>
+            <li class="links"><a href="#home" class="link">Buy Theme</a></li>
+        </ul>
+    </nav>
+
+    <!-- hero section -->
+    <section class="hero" id="home">
+        <img id="heroImage" src="./images/sunset.png" alt="Image Unavailable">
+    </section>
+
+    
+    <section class="feature" id="visit">
+        <div class="featureImage">
+            <img class="featureImg" src="./images/cookie.png" alt="Image Unavailable">
+        </div>
+        <div class="featureText">
+            <h2 class="featureHead">Visit Our Cafes</h2>
+            <p class="featurePara">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae massa velit, eu laoreet massa. Sed ac orci libero.</p>
+            <button class="featureButton">Find Your Cafe</button>
+        </div>
+    </section>
+
+   
+    <section class="feature reverse" id="brew">
+        <div class="featureImage">
+            <img class="featureImg" src="./images/beans.png" alt="Image Unavailable">
+        </div>
+        <div class="featureText">
+            <h2 class="featureHead">Learn to Brew</h2>
+            <p class="featurePara">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae massa velit, eu laoreet massa. Sed ac orci libero.</p>
+            <button class="featureButton">Show Me How</button>
+        </div>
+    </section>
+
+
+    <section class="feature" id="shop">
+        <div class="featureImage">
+            <img class="featureImg" src="./images/bag.png" alt="Image Unavailable">
+        </div>
+        <div class="featureText">
+            <h2 class="featureHead">Buy the Bean</h2>
+            <p class="featurePara">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae massa velit, eu laoreet massa. Sed ac orci libero.</p>
+            <button class="featureButton">Shop Now</button>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <p class="footerText">Made at the tip of Africa. &copy;</p>
+        <div class="socialIcons">
+            <a href="https://www.facebook.com/" target="_blank" class="smLink"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://x.com/" target="_blank" class="smLink"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://dribbble.com/" target="_blank" class="smLink"><i class="fa-brands fa-dribbble"></i></a>
+            <a href="https://gmail.com" target="_blank" class="smLink"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
